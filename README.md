@@ -48,6 +48,17 @@ ports:
 
 Nun kann die API mit `docker-compose up [-d]` aufgerufen werden und die API ist wieder über Port `8000` erreichbar.
 
+## git clone
+Wenn man an diesem Projekt weiterarbeiten möchte kann man es mit `git clone` leicht kopieren. Nun einfach mit `npm install` die Dependencies herunterladen und entweder mit 
+- `npm run start`
+- `node index.js`
+
+oder
+
+- `docker-compose up [-d]`
+
+starten. Viel Spaß!
+
 
 ## Quellen
 [1] *nodejs docker image doc* https://github.com/nodejs/docker-node/blob/master/README.md#how-to-use-this-image [zugegriffen 07.11.2020]
